@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #appList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .app {
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 0.5em;
+    padding: 1em;
+  }
+  
+  .app h2 {
+    margin-top: 0;
+  }
+  
+  .app img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .install-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .install-button:hover {
+    background-color: #45a049;
+  }
+  
